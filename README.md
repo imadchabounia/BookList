@@ -1,4 +1,4 @@
-# BookList
+# BookList APP
 
 a simple BookList app which i've built after following a tutorial
 
