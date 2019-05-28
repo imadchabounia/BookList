@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', UI.displayBooks());
 
 document.querySelector('#book-form').addEventListener('submit', (e) => {
   //prevent actual submit
-  e.preventDefault();
+  e.preventDefault(); // so that we can follow console.log 
   //get form values
   const title = document.querySelector('#title').value;
   const author = document.querySelector('#author').value;
